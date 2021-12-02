@@ -68,3 +68,11 @@
     color: blue;
     border-radius: 30%;
 }
+
+/* about section */
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
