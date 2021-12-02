@@ -107,6 +107,7 @@
 .footer-links {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 .links {
     
@@ -117,4 +118,23 @@
 .links ul li {
     list-style: none;
     padding: 10px;
+}
+.footer-bottom {
+    margin-top: 50px;
+}
+footer {
+    padding-top: 40px;
+}
+.mail {
+    width: 350px;
+    height: 40px;
+}
+.subscribe {
+    width: 250px;
+    margin-left: -12px;
+    height: 40px;
+    border-bottom-left-radius: 0%;
+}
+form {
+    text-align: center;
 }
