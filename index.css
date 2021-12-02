@@ -101,3 +101,20 @@
     font-size: 50px;
     font-weight: bold;
 }
+
+/* footer section */
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+.links {
+    
+}
+.footer-design {
+    margin-right: 20px;
+}
+.links ul li {
+    list-style: none;
+    padding: 10px;
+}
