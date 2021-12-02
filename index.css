@@ -19,16 +19,24 @@
 .navbar-collapse li a {
     margin-left: 65px;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.navbar-collapse li a:hover {
+    border-bottom: 2px solid orange;
 }
 
 .navbar-brand {
     margin-left: 60px;
     color: white;
     font-size: 30px;
+    font-weight: bold;
 }
 .navbar-brand span {
     color: blue;
+}
+.navbar-brand span:hover{
+    color: orange;
 }
 
 /* intro section */
@@ -121,7 +129,7 @@
 }
 .projects h3 {
     text-align: center;
-    color: orange;
+    color: rgba(247, 176, 43, 0.87);
     font-size: 30px;
 }
 .project1 {
@@ -133,15 +141,22 @@
 .completed-projects h1{
     margin-top: 25px;
     text-align: center;
-    color: blue;
     font-size: 50px;
     font-weight: bold;
+}
+.completed-projects h1 span {
+    color: orange;
 }
 .completed-projects {
     padding-bottom: 40px;
     background-color: rgba(245, 245, 220, 0.178);
 }
-
+.completed-projects h4 {
+    color: rgb(49, 37, 37);
+}
+.completed-projects p, ul li {
+    font-size: 19px;
+}
 /* footer section */
 
 .footer-links {
@@ -174,6 +189,8 @@
 .footer-bottom {
     margin-top: 50px;
     display: flex;
+    border-top: 2px solid orange;
+    padding-top: 15px;
 }
 footer {
     background-color: rgb(8, 14, 32);
