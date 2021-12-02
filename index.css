@@ -96,4 +96,8 @@
 }
 .completed-projects h1{
     margin-top: 25px;
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+    font-weight: bold;
 }
