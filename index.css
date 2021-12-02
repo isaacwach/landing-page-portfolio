@@ -76,3 +76,11 @@
     justify-content: space-around;
     margin-top: 15px;
 }
+.about-section {
+    padding-top: 30px;
+    background-color: aqua;
+}
+.about-section h1 {
+    text-align: center;
+    font-size: 35px;
+}
