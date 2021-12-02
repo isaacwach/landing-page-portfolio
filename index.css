@@ -163,6 +163,7 @@
 }
 .footer-bottom {
     margin-top: 50px;
+    display: flex;
 }
 footer {
     background-color: rgb(8, 14, 32);
@@ -184,4 +185,12 @@ form {
 footer img {
     height: 450px;
     width: 500px;
+}
+.social-links {
+    align-items: flex-end;
+    margin-left: 600px;
+}
+.social-links a{
+    justify-content: flex-end;
+    padding-left: 20px;
 }
