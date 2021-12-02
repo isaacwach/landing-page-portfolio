@@ -42,6 +42,10 @@
     background-color: rgb(2, 2, 19);
 }
 
+#logo {
+    width: 50px;
+}
+
 /* intro section */
 .intro-section {
     padding-left: 200px;
@@ -127,7 +131,6 @@
     height: 350px;
 }
 .card {
-    /* text-align: center; */
     align-items: center;
     background-color: transparent;
     color: white;
@@ -157,24 +160,28 @@
     box-shadow:  0 10px rgba(7, 7, 224, 0.26);
 }
 .completed-projects h1{
-    margin-top: 25px;
+    padding-top: 30px;
     text-align: center;
     font-size: 50px;
     font-weight: bold;
+    color: white;
 }
 .completed-projects h1 span {
     color: orange;
 }
 .completed-projects {
     padding-bottom: 70px;
-    background-color: rgba(245, 245, 220, 0.178);
+    background-color: #07051A;
 }
 .completed-projects h4 {
-    color: rgb(49, 37, 37);
+    color: rgb(218, 204, 204);
 }
 .completed-projects p, ul li {
     font-size: 19px;
+    color: white;
 }
+
+
 /* footer section */
 
 .footer-links {
@@ -211,7 +218,7 @@
     padding-top: 15px;
 }
 footer {
-    background-color: rgb(8, 14, 32);
+    background-color: #120E3A;
 }
 .mail {
     width: 350px;
