@@ -24,3 +24,13 @@
 .navbar-brand span {
     color: blue;
 }
+
+/* intro section */
+.intro-section {
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background: url("images/portback1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
