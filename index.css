@@ -11,15 +11,21 @@
     justify-content: flex-end;
 }
 
+.navbar {
+    padding-top: 0.0rem;
+    padding-bottom: 0.0rem;
+  }
+
 .navbar-collapse li a {
-    margin-left: 45px;
+    margin-left: 65px;
     color: white;
     font-size: 20px;
 }
 
 .navbar-brand {
+    margin-left: 60px;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
 }
 .navbar-brand span {
     color: blue;
@@ -61,12 +67,12 @@
 }
 .title button {
     width: 200px;
-    height: 90px;
+    height: 70px;
     font-size: 24px;
     margin-top: 100px;
-    background-color: rgb(233, 172, 59);
-    color: blue;
-    border-radius: 30%;
+    background-color: transparent;
+    color: white;
+    border: 2px solid orange;
 }
 
 /* about section */
@@ -100,6 +106,9 @@
     color: blue;
     font-size: 50px;
     font-weight: bold;
+}
+.completed-projects {
+    padding-bottom: 40px;
 }
 
 /* footer section */
