@@ -1,0 +1,10 @@
+
+
+/* nav bar section */
+.nav {
+    background-color: rgb(37, 35, 35);
+    padding: 10px;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
