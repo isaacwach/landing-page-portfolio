@@ -38,6 +38,9 @@
 .navbar-brand span:hover{
     color: orange;
 }
+.dropdown-menu {
+    background-color: rgb(2, 2, 19);
+}
 
 /* intro section */
 .intro-section {
@@ -47,6 +50,7 @@
     background: url("images/portback1.png");
     background-repeat: no-repeat;
     background-size: cover;
+    box-sizing: border-box;
 }
 
 .title {
@@ -65,6 +69,19 @@
 }
 .title h1 {
     font-size: 55px;
+    animation-name: textzoom;
+    animation-duration: 3s;
+    animation-timing-function: repeat;
+    animation-iteration-count: infinite;
+}
+
+@keyframes textzoom {
+    0%{
+        font-size: 35px;
+    }
+    100%{
+        font-size: 65px;
+    }
 }
 .title h2 {
     font-size:35px;
@@ -82,6 +99,7 @@
     color: white;
     border: 2px solid orange;
 }
+
 
 /* about section */
 
@@ -148,7 +166,7 @@
     color: orange;
 }
 .completed-projects {
-    padding-bottom: 40px;
+    padding-bottom: 70px;
     background-color: rgba(245, 245, 220, 0.178);
 }
 .completed-projects h4 {
@@ -209,8 +227,9 @@ form {
     text-align: center;
 }
 footer img {
-    height: 450px;
+    height: 510px;
     width: 500px;
+    margin-top: -30px;
 }
 .social-links {
     align-items: flex-end;
