@@ -202,8 +202,9 @@
                 <img src="images/footer pic.jpeg" alt="">
             </div>
             <div class="col-7 footer-design">
-                <form action="">
-                    <input class="mail" type="text" placeholder="Enter your email" name="email">
+                <div id="error"></div>
+                <form action="/" id="form">
+                    <input id="mail" type="text" placeholder="Enter your email" name="email" method="GET" onkeydown="validation()">
                     <input class="subscribe" type="submit" value="Subscribe Now!">
                 </form>
                 <div class="footer-links">
@@ -253,6 +254,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
     </script>
+    <script src="index.js"></script>
 </body>
 
 </html>
