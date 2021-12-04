@@ -254,3 +254,34 @@ footer img {
     justify-content: flex-end;
     padding-left: 20px;
 }
+
+
+#text {
+    display: block;
+    font-weight: 300;
+    font-style: italic;
+    padding: 5px;
+}
+#form .email-form{
+    position: relative;
+}
+#form.invalid .email-form:before {
+    content: "";
+    position: absolute;
+    right: 60px;
+    top: 12px;
+    width: 24px;height: 24px;
+    background: url("../images/invalid.png");
+    background-size: cover;
+    z-index: 1000;
+}
+#form.valid .email-form:before {
+    content: "";
+    position: absolute;
+    right: 60px;
+    top: 12px;
+    width: 24px;height: 24px;
+    background: url("../images/valid.png");
+    background-size: cover;
+    /* z-index: 1000; */
+}
